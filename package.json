@@ -1,0 +1,22 @@
+{
+  "name": "json-hammerhead",
+  "version": "0.1.0",
+  "description": "",
+  "main": "json.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miherlosev/json-hammerhead.git"
+  },
+  "keywords": [
+    "json"
+  ],
+  "author": "miherlosev <miherlosev@mail.ru> (http://devexpress.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/miherlosev/json-hammerhead/issues"
+  },
+  "homepage": "https://github.com/miherlosev/json-hammerhead#readme"
+}
