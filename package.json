@@ -4,7 +4,9 @@
   "description": "",
   "main": "json.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "publish-please": "publish-please",
+    "prepublishOnly": "publish-please guard"
   },
   "repository": {
     "type": "git",
@@ -18,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/miherlosev/json-hammerhead/issues"
   },
-  "homepage": "https://github.com/miherlosev/json-hammerhead#readme"
+  "homepage": "https://github.com/miherlosev/json-hammerhead#readme",
+  "devDependencies": {
+    "publish-please": "^5.4.3"
+  }
 }
