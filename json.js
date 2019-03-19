@@ -266,7 +266,7 @@ exports.isSerializable = function (value) {
 
         if (typeof value === 'object') {
             for (var prop in value) {
-                if (value.hasOwnProperty(prop) && !isSerializable(value[prop]))
+                if (value.hasOwnProperty(prop) && !exports.isSerializable(value[prop]))
                     return false;
             }
         }
