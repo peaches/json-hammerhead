@@ -1,6 +1,6 @@
 {
   "name": "@testcafe/json-hammerhead",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "",
   "main": "json.js",
   "scripts": {
@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/miherlosev/json-hammerhead#readme",
   "devDependencies": {
-    "mocha": "^6.0.2",
+    "mocha": "^5.2.0",
     "publish-please": "^5.4.3"
   }
 }
